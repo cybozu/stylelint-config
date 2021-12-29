@@ -1,0 +1,37 @@
+{
+  "name": "@cybozu/stylelint-config",
+  "version": "0.1.0",
+  "description": "A shareable stylelint config for Cybozu",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "styled-components.js"
+  ],
+  "scripts": {
+    "prerelease": "npm test",
+    "release": "standard-version",
+    "release:dryrun": "standard-version --dry-run",
+    "test": "jest"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "author": "cybozu",
+  "license": "MIT",
+  "dependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "postcss-syntax": "^0.36.2",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-styled-components": "^0.1.1"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.4.4",
+    "jest": "^27.4.5",
+    "standard-version": "^9.3.2",
+    "stylelint": "^14.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.0.0"
+  }
+}

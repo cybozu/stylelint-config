@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should raise errors with invalid.css 1`] = `
+Array [
+  Array [
+    Object {
+      "column": 24,
+      "line": 6,
+      "rule": "alpha-value-notation",
+      "severity": "error",
+    },
+    Object {
+      "column": 10,
+      "line": 6,
+      "rule": "color-function-notation",
+      "severity": "error",
+    },
+    Object {
+      "column": 3,
+      "line": 2,
+      "rule": "custom-property-pattern",
+      "severity": "error",
+    },
+    Object {
+      "column": 16,
+      "line": 10,
+      "rule": "length-zero-no-unit",
+      "severity": "error",
+    },
+    Object {
+      "column": 24,
+      "line": 10,
+      "rule": "length-zero-no-unit",
+      "severity": "error",
+    },
+    Object {
+      "column": 1,
+      "line": 9,
+      "rule": "no-descending-specificity",
+      "severity": "error",
+    },
+    Object {
+      "column": 20,
+      "line": 6,
+      "rule": "no-irregular-whitespace",
+      "severity": "error",
+    },
+  ],
+]
+`;
+
+exports[`should verify CSS in styled-components 1`] = `
+Array [
+  Array [
+    Object {
+      "column": 24,
+      "line": 7,
+      "rule": "alpha-value-notation",
+      "severity": "error",
+    },
+    Object {
+      "column": 10,
+      "line": 7,
+      "rule": "color-function-notation",
+      "severity": "error",
+    },
+    Object {
+      "column": 16,
+      "line": 12,
+      "rule": "length-zero-no-unit",
+      "severity": "error",
+    },
+    Object {
+      "column": 24,
+      "line": 12,
+      "rule": "length-zero-no-unit",
+      "severity": "error",
+    },
+    Object {
+      "column": 1,
+      "line": 11,
+      "rule": "no-descending-specificity",
+      "severity": "error",
+    },
+    Object {
+      "column": 20,
+      "line": 7,
+      "rule": "no-irregular-whitespace",
+      "severity": "error",
+    },
+  ],
+]
+`;

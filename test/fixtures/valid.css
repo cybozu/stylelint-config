@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #DDD;
+}
+
+.foo {
+  display: flex;
+  margin: 1px 0 2rem;
+}
+

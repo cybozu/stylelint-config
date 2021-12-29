@@ -1,0 +1,11 @@
+:root {
+  --primaryColor: #DDD;
+}
+
+.foo:hover {
+  color: rgba(0, 0,　0, .5);
+}
+
+.foo {
+  border: 1px 0px 1px 0px;
+}
