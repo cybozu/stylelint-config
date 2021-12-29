@@ -16,6 +16,9 @@
   "keywords": [
     "stylelint"
   ],
+  "repository": "cybozu/stylelint-config",
+  "homepage": "https://github.com/cybozu/stylelint-config",
+  "bugs": "https://github.com/cybozu/stylelint-config/issues",
   "author": "cybozu",
   "license": "MIT",
   "dependencies": {
