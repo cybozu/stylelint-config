@@ -10,15 +10,15 @@ A shareable [stylelint](https://stylelint.io/) config for Cybozu.
 This is a stylelint rule set for Cybozu.
 The purpose of `@cybozu/stylelint-config` are following
 
-- Share coding practices for CSS in Cybozu
-- Easy to set up and free you from updating stylelint and its plugins.
+- Share CSS coding practices in Cybozu
+- Easy to set up and free you from dealing with updates of stylelint and its plugins.
 
 **This is intented to use with [Prettier](https://prettier.io/).
 
 ## The benefits to adapt this rule
 
-You don't need to care about updating stylelint and its plugins.
-We'll manage the updates and provide CHANGELOG that you need to know so that you can update it easily.
+You don't need to deal with updating stylelint and its plugins on your own.
+We'll manage the updates and provide CHANGELOG that you need to care about so that you can update it easily.
 
 ## Severity
 
@@ -74,4 +74,4 @@ You can override the rules as you want.
 
 ## Limitations
 
-This config doesn't support IE11, so this would suggests CSS syntaxes that IE11 doesn't support.
+This config doesn't support IE11, so this would suggest CSS syntaxes are incompatible with IE11.
