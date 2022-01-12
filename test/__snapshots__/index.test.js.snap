@@ -54,37 +54,37 @@ Array [
   Array [
     Object {
       "column": 24,
-      "line": 7,
+      "line": 10,
       "rule": "alpha-value-notation",
       "severity": "error",
     },
     Object {
       "column": 10,
-      "line": 7,
+      "line": 10,
       "rule": "color-function-notation",
       "severity": "error",
     },
     Object {
       "column": 16,
-      "line": 12,
+      "line": 19,
       "rule": "length-zero-no-unit",
       "severity": "error",
     },
     Object {
       "column": 24,
-      "line": 12,
+      "line": 19,
       "rule": "length-zero-no-unit",
       "severity": "error",
     },
     Object {
       "column": 1,
-      "line": 11,
+      "line": 18,
       "rule": "no-descending-specificity",
       "severity": "error",
     },
     Object {
       "column": 20,
-      "line": 7,
+      "line": 10,
       "rule": "no-irregular-whitespace",
       "severity": "error",
     },
