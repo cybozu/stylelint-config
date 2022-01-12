@@ -13,6 +13,9 @@
     "release:dryrun": "standard-version --dry-run",
     "test": "jest"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "keywords": [
     "stylelint"
   ],
