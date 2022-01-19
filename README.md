@@ -70,7 +70,7 @@ You can override the rules as you want.
 - `@cybozu/stylelint-config`
   - This is a rule set based on [`stylelint-config-standard`](https://github.com/stylelint/stylelint-config-standard)
 - `@cybozu/stylelint-config/styled-components`
-  - This is a rule for anyone who uses [`styled-components`](https://styled-components.com/)
+  - This is a rule for projects who use [`styled-components`](https://styled-components.com/)
 
 ## Limitations
 
