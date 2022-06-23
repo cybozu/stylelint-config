@@ -26,7 +26,7 @@
   "author": "cybozu",
   "license": "MIT",
   "dependencies": {
-    "@stylelint/postcss-css-in-js": "^0.37.3",
+    "@stylelint/postcss-css-in-js": "^0.38.0",
     "postcss-syntax": "^0.36.2",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
