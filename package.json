@@ -15,7 +15,7 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14.13.1"
   },
   "keywords": [
     "stylelint"
@@ -26,10 +26,8 @@
   "author": "cybozu",
   "license": "MIT",
   "dependencies": {
-    "@stylelint/postcss-css-in-js": "^0.37.3",
-    "postcss-syntax": "^0.36.2",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^24.0.0",
+    "postcss-styled-syntax": "^0.3.1",
+    "stylelint-config-standard": "^30.0.1",
     "stylelint-config-styled-components": "^0.1.1"
   },
   "devDependencies": {
@@ -40,9 +38,9 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
     "standard-version": "^9.3.2",
-    "stylelint": "^14.2.0"
+    "stylelint": "^15.1.0"
   },
   "peerDependencies": {
-    "stylelint": "^14.0.0"
+    "stylelint": "^15.0.0"
   }
 }

@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["./index.js", "stylelint-config-styled-components"],
-  customSyntax: "@stylelint/postcss-css-in-js",
+  customSyntax: "postcss-styled-syntax",
   rules: {
     // These rules have problems with styled-components
     // This rule cannot recognize template literals with line feeds properly.
