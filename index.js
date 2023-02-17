@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["stylelint-config-standard", "stylelint-config-prettier"],
+  extends: ["stylelint-config-standard"],
   rules: {
     // We don't care about the following coding styles.
     "comment-empty-line-before": null,
