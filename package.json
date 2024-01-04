@@ -26,7 +26,7 @@
   "author": "cybozu",
   "license": "MIT",
   "dependencies": {
-    "postcss-styled-syntax": "^0.3.3",
+    "postcss-styled-syntax": "^0.6.4",
     "stylelint-config-standard": "^30.0.1",
     "stylelint-config-styled-components": "^0.1.1"
   },
