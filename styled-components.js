@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ["./index.js", "stylelint-config-styled-components"],
   customSyntax: "postcss-styled-syntax",
   rules: {
