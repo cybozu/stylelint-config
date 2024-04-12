@@ -1,6 +1,6 @@
 {
   "name": "@cybozu/stylelint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A shareable stylelint config for Cybozu",
   "main": "index.js",
   "files": [
