@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ["stylelint-config-standard"],
   rules: {
     // We don't care about the following coding styles.

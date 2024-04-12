@@ -1,14 +1,15 @@
-const stylelint = require("stylelint");
-const fs = require("fs");
-const path = require("path");
-const { it, expect } = require("@jest/globals");
+import stylelint from "stylelint";
+import fs from "node:fs";
+import path from "node:path";
+import url from "node:url";
+import { it, expect } from "@jest/globals";
+import styledComponentsConfig from "../styled-components";
+import config from "../index";
 
-const styledComponentsConfig = require("../styled-components");
-const config = require("../index");
-
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 const getSnapshot = (result) =>
   result.results.map(({ warnings }) =>
-    warnings.map(({ text, ...rest }) => rest)
+    warnings.map(({ text, ...rest }) => rest),
   );
 const getCode = (file) =>
   fs.readFileSync(path.resolve(__dirname, "fixtures", file), "utf-8");
