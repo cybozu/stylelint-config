@@ -1,7 +1,10 @@
 export default {
-  extends: ["./index.js", "stylelint-config-styled-components"],
+  extends: ["./index.js"],
   customSyntax: "postcss-styled-syntax",
   rules: {
+    "no-empty-source": null,
+    "property-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
     // These rules have problems with styled-components
     // This rule cannot recognize template literals with line feeds properly.
     // Error
