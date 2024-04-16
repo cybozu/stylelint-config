@@ -67,14 +67,6 @@ exports[`should verify CSS in styled-components 1`] = `
 [
   [
     {
-      "column": 30,
-      "endColumn": 2,
-      "endLine": 21,
-      "line": 6,
-      "rule": "no-missing-end-of-source-newline",
-      "severity": "error",
-    },
-    {
       "column": 24,
       "endColumn": 26,
       "endLine": 10,
