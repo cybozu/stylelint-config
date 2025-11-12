@@ -2,14 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [0.3.2](https://github.com/cybozu/stylelint-config/compare/v0.3.1...v0.3.2) (2025-09-25)
-
-### Bug Fixes
-
-* **deps:** modify test snapshot ([288d03e](https://github.com/cybozu/stylelint-config/commit/288d03ed8dd081cc51db67ab66b7398ff7e788f6))
-* **deps:** update dependency postcss-styled-syntax to v0.7.1 ([91f8310](https://github.com/cybozu/stylelint-config/commit/91f8310a0648e0aebd9374869eb72aa501d8cf8c))
-* **deps:** update dependency stylelint-config-standard to v36.0.1 ([4c7ffae](https://github.com/cybozu/stylelint-config/commit/4c7ffaed2a17c517b785b21e505de54369a96404))
-
 ## [0.3.1](https://github.com/cybozu/stylelint-config/compare/v0.3.0...v0.3.1) (2024-04-16)
 
 ### Bug Fixes
