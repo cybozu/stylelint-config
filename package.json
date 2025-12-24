@@ -39,7 +39,7 @@
   "peerDependencies": {
     "stylelint": "^16.0.0"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.26.1",
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
