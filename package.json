@@ -33,7 +33,7 @@
     "eslint": "9.39.4",
     "jest": "30.3.0",
     "prettier": "3.8.3",
-    "stylelint": "17.4.0",
+    "stylelint": "17.9.1",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
