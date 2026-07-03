@@ -32,7 +32,7 @@
     "@jest/globals": "30.4.1",
     "eslint": "9.39.4",
     "jest": "30.4.2",
-    "prettier": "3.8.5",
+    "prettier": "3.9.4",
     "stylelint": "17.11.1",
     "typescript": "6.0.3"
   },
